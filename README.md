@@ -5,15 +5,19 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+ 
+
   <div class="container">
     <h1>Preguntas de Salud</h1>
     <form>
       <p>1. ¿Has hecho ejercicio hoy?</p>
       <label>
-        <input type="radio" name="q1" value="si"> Sí
+<a href="#" onclick="selectOption('q1', 'si')">Sí</a>
+        <input type="radio" name="q1" value="si" style="display: none;">
       </label>
       <label>
-        <input type="radio" name="q1" value="no"> No
+        <a href="#" onclick="selectOption('q1', 'no')">No</a>
+        <input type="radio" name="q1" value="no" style="display: none;">
       </label>
 
       <p>2. ¿Has consumido frutas y verduras hoy?</p>
